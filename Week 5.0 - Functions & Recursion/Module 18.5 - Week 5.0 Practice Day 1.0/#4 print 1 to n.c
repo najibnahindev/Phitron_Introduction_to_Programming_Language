@@ -4,7 +4,7 @@ void add(int x, int n)
 {
     if( x > n) return;
 
-    printf("I love Recursion\n");
+    printf("%d\n", x);
 
     add(x + 1, n);
 }
